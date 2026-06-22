@@ -1,4 +1,12 @@
 title: Rethinking Uncertainty for Modern Robotics Paradigms
 description: IROS 2026 Workshop (Proposed)
+url: "https://rethinking-uncertainty.github.io"
+baseurl: ""
 google_analytics: G-72XXRML63E
 theme: jekyll-theme-cayman
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/iroslogo.png
