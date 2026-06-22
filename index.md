@@ -2,7 +2,7 @@
 layout: default
 ---
 # Workshop Overview
-**This workshop is being proposed for IEEE IROS 2026 happening in Pittsburgh, PA, USA**
+**This workshop is confirmed for IEEE IROS 2026 in Pittsburgh, PA, USA on Sunday, September 27, 2026.**
 
 
 
@@ -10,6 +10,43 @@ layout: default
 Uncertainty quantification has been a core aspect of robotics for decades, from state estimation to dynamics modeling to planning. Today, however, the rapid integration of foundation models (e.g., LLMs, VLMs, world models) into the the modern autonomy pipeline and the use of large end-to-end architectures (e.g., vision-language-action models, visuomotor policies) has made quantifying uncertainty significantly more complex. For example, these models are trained on often unknown internet-scale datasets, lack explicit probabilistic representations, and their enormous parameter sizes (e.g., billions) make established uncertainty quantification techniques (e.g., ensembling) impractical. Furthermore, even when these large models are deployed as components within a modular autonomy pipeline, it’s extremely hard to understand how component-level uncertainty influences system-level performance.
 
 This workshop revisits the foundational problem of uncertainty quantification in light of these “modern robotics paradigms”. We aim to bring together a diverse group of academic, industrial, and government researchers focusing on uncertainty across all components of robot autonomy (e.g., perception, planning, control, machine learning, foundation model design). Our goal is to chart a comprehensive roadmap for the next-generation of uncertainty-aware autonomy: (1) establishing a rigorous understanding of the new sources of uncertainties that can influence the next-generation of robots, and (2) explore methods to quantify and mitigate uncertainties in the era of robotics foundation models.
+
+# Speakers
+
+<div class="organizer-grid">
+  <div class="organizer-card">
+    <img src="{{ '/assets/img/speakers/max-simchowitz.png' | relative_url }}" alt="Max Simchowitz" class="organizer-img">
+    <div class="organizer-name"><a href="https://msimchowitz.github.io/" target="_blank">Max Simchowitz</a></div>
+    <div class="organizer-affiliation">Carnegie Mellon University</div>
+  </div>
+  <div class="organizer-card">
+    <img src="{{ '/assets/img/speakers/dinesh-jayaraman.jpg' | relative_url }}" alt="Dinesh Jayaraman" class="organizer-img">
+    <div class="organizer-name"><a href="https://seas.upenn.edu/~dineshj/" target="_blank">Dinesh Jayaraman</a></div>
+    <div class="organizer-affiliation">University of Pennsylvania</div>
+  </div>
+  <div class="organizer-card">
+    <img src="{{ '/assets/img/speakers/zsolt-kira.jpg' | relative_url }}" alt="Zsolt Kira" class="organizer-img">
+    <div class="organizer-name"><a href="https://faculty.cc.gatech.edu/~zk15/" target="_blank">Zsolt Kira</a></div>
+    <div class="organizer-affiliation">Georgia Institute of Technology</div>
+  </div>
+  <div class="organizer-card">
+    <img src="{{ '/assets/img/speakers/bernadette-bucher.png' | relative_url }}" alt="Bernadette Bucher" class="organizer-img">
+    <div class="organizer-name"><a href="https://bucherb.github.io/" target="_blank">Bernadette Bucher</a></div>
+    <div class="organizer-affiliation">University of Michigan</div>
+  </div>
+  <div class="organizer-card">
+    <img src="{{ '/assets/img/speakers/haruki-nishimura.jpg' | relative_url }}" alt="Haruki Nishimura" class="organizer-img">
+    <div class="organizer-name"><a href="https://harukins.github.io/" target="_blank">Haruki Nishimura</a></div>
+    <div class="organizer-affiliation">Toyota Research Institute</div>
+  </div>
+  <div class="organizer-card">
+    <img src="{{ '/assets/img/speakers/susmit-jha.png' | relative_url }}" alt="Susmit Jha" class="organizer-img">
+    <div class="organizer-name"><a href="https://susmitjha.github.io/" target="_blank">Susmit Jha</a></div>
+    <div class="organizer-affiliation">DARPA <span class="speaker-status">(Tentatively Confirmed)</span></div>
+  </div>
+</div>
+
+<p class="speakers-link"><a href="{{ '/speakers' | relative_url }}">View speaker talk titles &rarr;</a></p>
 
 # Organizers
 

@@ -62,3 +62,74 @@ $hr-border-color: #eff0f1;           /* Horizontal rule colors */
     color: #606c71;
     /* Cayman theme text desc color */
 }
+
+.speaker-status {
+    font-size: 0.85rem;
+    font-weight: normal;
+    color: #819198;
+}
+
+.speakers-link {
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Speaker detail page */
+.speaker-list {
+    margin-top: 1.5rem;
+}
+
+.speaker-entry {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+    margin-bottom: 2.5rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid $border-color;
+}
+
+.speaker-entry:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.speaker-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    flex-shrink: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.speaker-details {
+    flex: 1;
+}
+
+.speaker-name {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.speaker-affiliation {
+    font-size: 0.95rem;
+    color: #606c71;
+    margin-bottom: 0.5rem;
+}
+
+.speaker-talk {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    color: $section-headings-color;
+}
+
+@media screen and (max-width: 640px) {
+    .speaker-entry {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
