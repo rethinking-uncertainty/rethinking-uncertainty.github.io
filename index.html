@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rethinking Uncertainty for Modern Robotics Paradigms — IROS 2026 Workshop</title>
+  <meta name="description" content="IEEE/RSJ IROS 2026 Workshop on Rethinking Uncertainty for Modern Robotics Paradigms. Pittsburgh, PA, USA — September 27, 2026.">
+  <link rel="icon" href="assets/img/iroslogo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ═══ Sticky nav ═══ -->
+  <nav id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-brand">Rethinking Uncertainty for Modern Robotics Paradigms</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#speakers">Speakers</a>
+        <a href="#cfp">Call for Papers</a>
+        <a href="#dates">Dates</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#organizers">Organizers</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ═══ 0. Hero / Header ═══ -->
+  <header class="hero" id="hero">
+    <img src="assets/img/iroslogo.png" alt="IROS 2026" class="hero-icon">
+    <h1>Rethinking Uncertainty for<br>Modern Robotics Paradigms</h1>
+    <p class="hero-sub">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) Workshop</p>
+    <ul class="hero-meta">
+      <li><span class="meta-label">Date</span> Sunday, September 27, 2026 (Full day workshop)</li>
+      <li><span class="meta-label">Room</span> TBD</li>
+      <li><span class="meta-label">Location</span> Pittsburgh, PA, USA</li>
+    </ul>
+    <div class="hero-links">
+      <a class="hero-btn primary" href="https://openreview.net/group?id=IEEE.org/IROS/2026/Workshop/Rethinking_Uncertainty" target="_blank" rel="noopener">Submit on OpenReview</a>
+    </div>
+  </header>
+
+  <main class="content">
+
+    <!-- ═══ 1. About ═══ -->
+    <section class="section" id="about">
+      <h2 class="section-title">About the Workshop</h2>
+      
+      <p>Uncertainty quantification has long been a core aspect of robotics. It has improved the reliability of all components of the robotics pipeline, from perception, to state estimation, control, and planning. However, in the past five years, all these components have started to rely on–or be replaced with–extremely large pre-trained AI models, raising the question: what does uncertainty quantification mean in this new era? For instance, foundation models (e.g., LLMs, VLMs, VLAs, and world models) are trained on internet-scale datasets, typically lack explicit probabilistic representations, and their enormous parameter sizes make established uncertainty quantification techniques (e.g., ensembling) computationally impractical. Furthermore, even when these models are deployed as components within a modular autonomy pipeline, it remains difficult to understand how uncertainty at the component level influences overall system-level performance.</p>
+      
+      <p>This workshop revisits the foundational problem of uncertainty quantification in light of these “modern robotics paradigms.” We aim to bring together a diverse group of academic, industrial, and government researchers focusing on uncertainty across all components of robot autonomy. Our goal is to chart a comprehensive roadmap for the next generation of uncertainty-aware robotics: (1) establishing a rigorous understanding of the new sources of uncertainty that can influence next-generation robotic systems, (2) exploring methods to quantify and mitigate uncertainty in the era of robotics foundation models, and (3) examining key challenges and future directions for building reliable, uncertainty-aware robotic systems.</p>
+
+      <h3 class="sub-head">Discussion Themes</h3>
+      <ul class="topic-list">
+        <li>How should we quantify, calibrate, and mitigate uncertainty in robotic systems built on large pretrained models, including VLAs, VLMs, and world models?</li>
+        <li>Are traditional uncertainty frameworks, such as Bayesian methods, still scalable and meaningful for modern robotics foundation models?</li>
+        <li>What forms of verification, statistical guarantees, and reliability assessment are practical for learning-based robotic systems deployed in open-world settings?</li>
+        <li>How should we reason about component-level versus system-level uncertainty, and which uncertainties actually matter for safe and reliable robot operation?</li>
+      </ul>
+
+    </section>
+
+    <!-- ═══ 2. Speakers ═══ -->
+    <section class="section" id="speakers">
+      <h2 class="section-title">Invited Speakers</h2>
+      <div class="people-grid">
+        <div class="person-card">
+          <img src="assets/img/speakers/max-simchowitz.png" alt="Max Simchowitz" class="person-img">
+          <div class="person-name"><a href="https://msimchowitz.github.io/" target="_blank" rel="noopener">Max Simchowitz</a></div>
+          <div class="person-affil">Carnegie Mellon University</div>
+        </div>
+        <div class="person-card">
+          <img src="assets/img/speakers/dinesh-jayaraman.jpg" alt="Dinesh Jayaraman" class="person-img">
+          <div class="person-name"><a href="https://seas.upenn.edu/~dineshj/" target="_blank" rel="noopener">Dinesh Jayaraman</a></div>
+          <div class="person-affil">University of Pennsylvania</div>
+        </div>
+        <div class="person-card">
+          <img src="assets/img/speakers/zsolt-kira.jpg" alt="Zsolt Kira" class="person-img">
+          <div class="person-name"><a href="https://faculty.cc.gatech.edu/~zk15/" target="_blank" rel="noopener">Zsolt Kira</a></div>
+          <div class="person-affil">Georgia Institute of Technology</div>
+        </div>
+        <div class="person-card">
+          <img src="assets/img/speakers/bernadette-bucher.png" alt="Bernadette Bucher" class="person-img">
+          <div class="person-name"><a href="https://bucherb.github.io/" target="_blank" rel="noopener">Bernadette Bucher</a></div>
+          <div class="person-affil">University of Michigan</div>
+        </div>
+        <div class="person-card">
+          <img src="assets/img/speakers/haruki-nishimura.jpg" alt="Haruki Nishimura" class="person-img">
+          <div class="person-name"><a href="https://harukins.github.io/" target="_blank" rel="noopener">Haruki Nishimura</a></div>
+          <div class="person-affil">Toyota Research Institute</div>
+        </div>
+        <div class="person-card">
+          <img src="assets/img/speakers/susmit-jha.png" alt="Susmit Jha" class="person-img">
+          <div class="person-name"><a href="https://susmitjha.github.io/" target="_blank" rel="noopener">Susmit Jha</a></div>
+          <div class="person-affil">DARPA </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ 3. Call for Papers ═══ -->
+    <section class="section" id="cfp">
+      <h2 class="section-title">Call for Papers</h2>
+
+      <p>We invite short papers (4+n pages) submissions to share their findings with the community and engage in discussions on the past, present, and future directions of uncertainty-aware methods in robotics. We aim to bring together a diverse group of researchers—spanning machine learning theory, statistics, computer vision, mapping, decision-making, reinforcement learning, control theory, and robot learning—across all levels of embodied AI systems, with the shared goal of understanding and mitigating uncertainty for safe, trustworthy, and reliable robot operation. Topics of interest include, but are not limited to:</p>
+      <ul class="topic-list">
+        <li>Uncertainty Quantification for Robotic Foundation Models (VLAs, VAMs, World Models, etc.)</li>
+        <li>Out-of-Distribution Detection</li>
+        <li>Active and Continual Learning for Large Robotic Foundation Models</li>
+        <li>Failure Detection and Recovery</li>
+        <li>Verification, Calibration, and Reliability Assessment of Robotic Systems</li>
+        <li>Statistical Guarantees of Robotic Systems</li>
+        <li>Safety and Robustness of Learning-based Robotic Systems</li>
+        <li>Evaluation for Robotic Foundation Models</li>
+        <li>Planning and Control under Partial Observability</li>
+      </ul>
+      
+      
+      <div class="cfp-cards">
+        <div class="cfp-card">
+          <h3 class="sub-head">Submission</h3>
+          <ul class="cfp-list">
+            <li><strong>Portal:</strong> Submit via <a href="https://openreview.net/group?id=IEEE.org/IROS/2026/Workshop/Rethinking_Uncertainty" target="_blank" rel="noopener">OpenReview</a>.</li>
+            <li><strong>Length:</strong> 4 + <em>n</em> pages (4 pages excluding references and appendices).</li>
+            <li><strong>Format:</strong> Submissions in PDF.</li>
+            <li><strong>Supplementary:</strong> Optional supplementary material (e.g., additional results, videos) may be uploaded as a single zip file.</li>
+          </ul>
+        </div>
+        <div class="cfp-card">
+          <h3 class="sub-head">Review &amp; Presentation</h3>
+          <ul class="cfp-list">
+            <li>All accepted papers will be presented as <strong>posters</strong> at the IROS 2026 workshop.</li>
+            <li>A subset of accepted papers may be selected for short <strong>spotlight talks</strong>.</li>
+            <li><strong>Visibility:</strong> Submissions and reviews will not be public. Only accepted papers will be made public.</li>
+            <li>Accepted work must be <strong>presented in person</strong>.</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="cfp-note"><strong>Non-archival:</strong> Sharing papers in this way does not constitute formal proceedings, i.e., this workshop is a non-archival venue that will not restrict later renditions of the work from being published in archival conferences or journals.</p>
+
+    </section>
+
+    <!-- ═══ 2b. Important Dates ═══ -->
+    <section class="section" id="dates">
+      <h2 class="section-title">Important Dates</h2>
+      <p class="section-subtitle">All deadlines are 23:59 AoE (Anywhere on Earth).</p>
+      <div class="date-grid">
+        <div class="date-block">
+          <div class="date-day">Aug 23</div>
+          <div class="date-year">2026</div>
+          <div class="date-label">Submission Deadline</div>
+        </div>
+        <div class="date-block">
+          <div class="date-day">Sep 13</div>
+          <div class="date-year">2026</div>
+          <div class="date-label">Decision Notification</div>
+        </div>
+        <div class="date-block">
+          <div class="date-day">Sep 20</div>
+          <div class="date-year">2026</div>
+          <div class="date-label">Camera-Ready Submission</div>
+        </div>
+        <div class="date-block highlight">
+          <div class="date-day">Sep 27</div>
+          <div class="date-year">2026</div>
+          <div class="date-label">Workshop Day</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ 4. Schedule ═══ -->
+    <section class="section" id="schedule">
+      <h2 class="section-title">Schedule</h2>
+      <p class="section-subtitle">Full-day program &middot; September 27, 2026. All times are tentative.</p>
+      <div class="table-wrap">
+        <table class="schedule">
+          <thead>
+            <tr><th>Time</th><th>Talk</th><th>Comments</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>8:50 am &ndash; 9:00 am</td><td>Welcome and opening remarks</td><td></td></tr>
+            <tr><td>9:00 am &ndash; 9:40 am</td><td>Speaker Talk #1</td><td></td></tr>
+            <tr><td>9:40 am &ndash; 10:10 am</td><td>Oral Session #1</td><td>3 papers &times; 10 mins each</td></tr>
+            <tr><td>10:10 am &ndash; 10:40 am</td><td>Spotlight Talks</td><td>2-minute pitch for each poster</td></tr>
+            <tr><td>10:40 am &ndash; 11:10 am</td><td>Morning coffee break &middot; Poster Session #1</td><td></td></tr>
+            <tr><td>11:10 am &ndash; 11:50 am</td><td>Speaker Talk #2</td><td></td></tr>
+            <tr><td>11:50 am &ndash; 12:30 pm</td><td>Speaker Talk #3</td><td></td></tr>
+            <tr><td>12:30 pm &ndash; 1:30 pm</td><td>Lunch Break</td><td></td></tr>
+            <tr><td>1:30 pm &ndash; 2:10 pm</td><td>Speaker Talk #4</td><td></td></tr>
+            <tr><td>2:10 pm &ndash; 2:50 pm</td><td>Speaker Talk #5</td><td></td></tr>
+            <tr><td>2:50 pm &ndash; 3:20 pm</td><td>Oral Session #2</td><td>3 papers &times; 10 mins each</td></tr>
+            <tr><td>3:20 pm &ndash; 3:50 pm</td><td>Afternoon coffee break &middot; Poster Session #2</td><td></td></tr>
+            <tr><td>3:50 pm &ndash; 4:30 pm</td><td>Speaker Talk #6</td><td></td></tr>
+            <tr><td>4:30 pm &ndash; 5:15 pm</td><td>Panel Discussion</td><td></td></tr>
+            <tr><td>5:15 pm &ndash; 5:30 pm</td><td>Closing Remarks and Awards</td><td></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ═══ 5. Organizers ═══ -->
+    <section class="section" id="organizers">
+      <h2 class="section-title">Organizers</h2>
+      <p class="section-subtitle">Brought to you by researchers across academia and industry.</p>
+      <div class="people-grid">
+        <div class="person-card">
+          <img src="assets/img/prasanna.jpg" alt="Prasanna Sriganesh" class="person-img">
+          <div class="person-name"><a href="https://prassi.me" target="_blank" rel="noopener">Prasanna Sriganesh</a></div>
+          <div class="person-affil">Carnegie Mellon University</div>
+        </div>
+        <div class="person-card">
+          <img src="assets/img/junwon.jpg" alt="Junwon Seo" class="person-img">
+          <div class="person-name"><a href="https://junwon.me" target="_blank" rel="noopener">Junwon Seo</a></div>
+          <div class="person-affil">Carnegie Mellon University</div>
+        </div>
+        <div class="person-card">
+          <img src="assets/img/juyeop.jpg" alt="Juyeop Han" class="person-img">
+          <div class="person-name"><a href="https://juyeophan.github.io/" target="_blank" rel="noopener">Juyeop Han</a></div>
+          <div class="person-affil">Massachusetts Institute of Technology</div>
+        </div>
+        <div class="person-card">
+          <img src="assets/img/jeremy.jpg" alt="Xiaoyi (Jeremy) Cai" class="person-img">
+          <div class="person-name"><a href="https://xiaoyi-cai.github.io/" target="_blank" rel="noopener">Xiaoyi (Jeremy) Cai</a></div>
+          <div class="person-affil">Waymo</div>
+        </div>
+        <div class="person-card">
+          <img src="assets/img/may.jpg" alt="Zhiting (May) Mei" class="person-img">
+          <div class="person-name"><a href="https://may0mei.github.io/" target="_blank" rel="noopener">Zhiting (May) Mei</a></div>
+          <div class="person-affil">Princeton University</div>
+        </div>
+        <div class="person-card">
+          <img src="assets/img/rosario.jpg" alt="Rosario Scalise" class="person-img">
+          <div class="person-name"><a href="https://rosarioscalise.com/" target="_blank" rel="noopener">Rosario Scalise</a></div>
+          <div class="person-affil">University of Washington</div>
+        </div>
+        <div class="person-card">
+          <img src="assets/img/sertac.jpg" alt="Sertac Karaman" class="person-img">
+          <div class="person-name"><a href="https://karaman.mit.edu/" target="_blank" rel="noopener">Sertac Karaman</a></div>
+          <div class="person-affil">Massachusetts Institute of Technology</div>
+        </div>
+        <div class="person-card">
+          <img src="assets/img/andrea.jpg" alt="Andrea Bajcsy" class="person-img">
+          <div class="person-name"><a href="https://www.cs.cmu.edu/~abajcsy/" target="_blank" rel="noopener">Andrea Bajcsy</a></div>
+          <div class="person-affil">Carnegie Mellon University</div>
+        </div>
+        <div class="person-card">
+          <img src="assets/img/matthew.jpg" alt="Matthew Travers" class="person-img">
+          <div class="person-name"><a href="https://themattlab.org/" target="_blank" rel="noopener">Matthew Travers</a></div>
+          <div class="person-affil">Carnegie Mellon University</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══ Footer ═══ -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-title">Rethinking Uncertainty for Modern Robotics Paradigms</p>
+      <p class="footer-sub">IEEE/RSJ IROS 2026 Workshop &middot; Pittsburgh, PA, USA &middot; September 27, 2026</p>
+      <p class="footer-contact">Contact: <a href="mailto:iros2026-rethinking-uncertainty@googlegroups.com">iros2026-rethinking-uncertainty@googlegroups.com</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
