@@ -216,6 +216,14 @@ nav {
 .date-block.highlight {
   border-color: var(--accent); background: var(--accent-light);
 }
+.date-old {
+  display: inline-block; margin-right: 8px;
+  font-size: 1.05rem; font-weight: 600; color: var(--text-dim);
+  text-decoration: line-through; transition: color 0.2s;
+}
+.date-block:hover .date-old { color: rgba(255,255,255,0.75); }
+.date-label .tag { margin-left: 4px; }
+.date-block:hover .date-label .tag { background: rgba(255,255,255,0.22); color: #fff; }
 
 /* ═══ People grids (speakers + organizers) ═══ */
 .people-grid {
@@ -248,6 +256,10 @@ nav {
   font-size: 0.72rem; font-weight: 600;
   background: var(--accent-light); color: var(--accent-dark);
   padding: 3px 12px; border-radius: 100px;
+}
+.person-talk {
+  margin-top: 10px; font-size: 0.82rem; line-height: 1.45;
+  color: var(--text-dim); font-style: italic;
 }
 .tag {
   display: inline-block; font-size: 0.65rem; font-weight: 600;
